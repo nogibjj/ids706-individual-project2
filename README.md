@@ -53,3 +53,44 @@ Your project should include the following:
 	-	Quality of video and audio: 4 points
 
 - Total: 100 points
+
+
+## Using GitHub Copilot
+
+In this project, I used GitHub Copilot to assist with programming. Here's how I use it:
+
+1. **Code Suggestions**: Copilot provides me with instant code suggestions while writing code, which is especially helpful when writing CRUD operations.
+2. **Error Checking**: Copilot helped me identify and fix some potential errors and poor coding practices.
+3. **Code Optimization**: In some cases, Copilot suggests more optimized code solutions, which helps improve code quality and execution efficiency.
+
+Overall, GitHub Copilot has greatly accelerated my programming speed and helped me improve the quality of my code.
+
+
+## Optimize Rust binaries
+In order to produce an optimized Rust binary, you should use the --release flag when building:
+
+`cargo build --release`
+
+This command will generate an optimized binary file in the target/release/ directory.
+
+
+## Rust SQLite CLI
+
+A simple command line interface program for CRUD operations on SQLite databases.
+
+## Dependencies
+
+- Rust
+	`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+- SQLite
+	`sudo apt-get install sqlite3 libsqlite3-dev`
+
+## How to run
+
+1. Clone this repository.
+2. Run `cargo build --release` in the project directory.
+3. Run `./target/release/rust_sqlite_cli`.
+
+## Video demonstration
+
+[YouTube link]
