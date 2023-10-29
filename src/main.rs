@@ -102,7 +102,7 @@ fn main() -> Result<()> {
                 let mut address = String::new();
                 io::stdin().read_line(&mut address).expect("Failed to read address");
 
-                add_user(&conn, &name.trim(), age, &address.trim())?;
+                add_user(&conn, name.trim(), age, address.trim())?;
             },
             Command::ListUsers => {
                 list_users(&conn)?;
@@ -126,7 +126,7 @@ fn main() -> Result<()> {
                 let mut address = String::new();
                 io::stdin().read_line(&mut address).expect("Failed to read address");
 
-                update_user(&conn, id, &name.trim(), age, &address.trim())?;
+                update_user(&conn, id, &name.trim(), age, address.trim())?;
             },
             Command::DeleteUser => {
                 println!("Enter user ID to delete: ");
