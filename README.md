@@ -1,4 +1,4 @@
-# ids706-individual-project2 [![CI](https://github.com/nogibjj/ids706-individual-project2/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/ids706-individual-project2/actions/workflows/ci.yml)
+# ids706-individual-project2 [![CI](https://github.com/nogibjj/ids706-individual-project2/actions/workflows/rust.yml/badge.svg)](https://github.com/nogibjj/ids706-individual-project2/actions/workflows/rust.yml)
 
 
 Individual Project #2: Rust CLI Binary with SQLite
@@ -55,6 +55,18 @@ Your project should include the following:
 
 - Total: 100 points
 
+## Project Explanation
+
+This is a simple command-line interface (CLI) program written in Rust, designed to perform CRUD (Create, Read, Update, Delete) operations on a SQLite database. The primary objective of this project is to showcase the capabilities of Rust combined with interactions with the SQLite database.
+
+With this CLI tool, users can effortlessly add, view, update, and delete user information from the database. The program provides an intuitive interactive interface, making database operations straightforward.
+
+## Features
+- Add User: Input name, age, and address to save new user data to the database.
+- List All Users: Display detailed information about all users in the database.
+- Update User: Modify the name, age, or address of a selected user.
+- Delete User: Remove a selected user from the database.
+
 
 ## Using GitHub Copilot
 
@@ -81,6 +93,9 @@ A simple command line interface program for CRUD operations on SQLite databases.
 
 ## Dependencies
 
+- Rust: The project is written in the Rust programming language.
+- SQLite: This is the lightweight database used in the project.
+- rusqlite crate: For interacting with the SQLite database in Rust.
 - Rust
 	`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 - SQLite
@@ -90,8 +105,9 @@ A simple command line interface program for CRUD operations on SQLite databases.
 
 1. Clone this repository.
 2. Run `cargo build --release` in the project directory.
-3. Run `./target/release/rust_sqlite_cli`.
+3. Or Run `cargo build`.
+4. Run `cargo run`.
 
 ## Video demonstration
 
-[YouTube link]
+[https://youtu.be/epv9oObsaVQ]
