@@ -1,4 +1,5 @@
-# ids706-individual-project2
+# ids706-individual-project2 [![CI](https://github.com/nogibjj/ids706-individual-project2/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/ids706-individual-project2/actions/workflows/ci.yml)
+
 
 Individual Project #2: Rust CLI Binary with SQLite
 
