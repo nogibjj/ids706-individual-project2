@@ -24,7 +24,6 @@ jobs:
       with:
         command: clippy
         args: -- -D warnings
-      working-directory: ../../rust_sqlite_cli
 
     - name: Build
       uses: actions-rs/cargo@v1
